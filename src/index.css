@@ -18,6 +18,10 @@ p {
   src: url('./assets/fonts/big_shoulders_display/BigShouldersDisplay-Bold.ttf');
 }
 
+body {
+  @apply bg-white;
+}
+
 #root {
   @apply flex flex-col items-center justify-center w-screen min-h-screen;
 }
