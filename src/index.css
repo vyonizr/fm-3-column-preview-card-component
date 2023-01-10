@@ -19,7 +19,7 @@ p {
 }
 
 #root {
-  @apply w-screen min-h-screen flex justify-center items-center;
+  @apply flex flex-col items-center justify-center w-screen min-h-screen;
 }
 
 .btn-learn-more-sedans {
@@ -32,4 +32,13 @@ p {
 
 .btn-learn-more-luxury {
   color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
